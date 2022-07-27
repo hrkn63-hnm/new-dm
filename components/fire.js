@@ -4,12 +4,12 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD0_8OZjPM3oKfjq0dor8LdaSLFjMcfruw",
-  authDomain: "new-dm-52824.firebaseapp.com",
-  projectId: "new-dm-52824",
-  storageBucket: "new-dm-52824.appspot.com",
-  messagingSenderId: "7593387817",
-  appId: "1:7593387817:web:e231044477ae2df4e67938",
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
