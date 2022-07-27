@@ -80,7 +80,7 @@ export default function Info() {
         ).then((_) => {
           //router.push("/address/update");
           //router.push("/address/info?id=" + router.query.id);
-          router.push('/address');
+          router.push("/address");
         });
       });
     });
