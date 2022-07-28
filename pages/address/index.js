@@ -98,7 +98,7 @@ export default function Index() {
           <h5 className="mb-4">{message}</h5>
           <ul className="list-group">{data}</ul>
           <hr />
-          <button className="btn btn-primary" onClick={doAction}>
+          <button className="btn btn-primary btn-lg " onClick={doAction}>
             Add address
           </button>
         </div>

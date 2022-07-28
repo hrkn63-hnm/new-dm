@@ -147,18 +147,18 @@ export default function Info() {
               <input
                 type="text"
                 onChange={onChangeCmt}
-                className="form-control"
+                className="form-control display-1"
               />
             </div>
           </div>
-          <button onClick={doAction} className="btn btn-priary">
+          <button onClick={doAction} className="btn btn-priary ">
             Send Message
           </button>
           <button onClick={goBack} className="btn">
             Go Back
           </button>
         </div>
-        <ul className="list-group">{msgdata}</ul>
+        <ul className="list-group display-1">{msgdata}</ul>
       </Layout>
     </>
   );
